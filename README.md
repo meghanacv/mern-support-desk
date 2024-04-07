@@ -2,22 +2,16 @@
 Support Ticket App is a full-stack web application developed with the MERN (MongoDB, Express.js, React.js, Node.js) stack. It serves as a platform for managing support tickets, facilitating communication between users and support teams.
 
 ### Technologies Used
-- MongoDB Atlas: Cloud-based MongoDB database service.
-- MongoDB Compass: GUI tool for interacting with MongoDB databases.
-- Express.js: Node.js web application framework for building APIs.
-- React.js: JavaScript library for building user interfaces.
-- Node.js: JavaScript runtime environment for server-side development.
-- Redux Toolkit: Redux library for state management.
-- Postman: API development tool for testing and debugging.
+- MongoDB Atlas
+- MongoDB Compass
+- Express.js
+- React.js
+- Node.js
+- Redux Toolkit
+- Postman
 
 ### Environment Variables
-Ensure you have an .env file in the root directory of your project with the following variables:
-
-`NODE_ENV=development
-PORT=5000
-MONGO_URI=mongodb+srv://<your_uri>
-JWT_SECRET=<your_secret_key>`
-Replace <your_uri> with your MongoDB connection URI and <your_secret_key> with your desired secret key for JWT authentication.
+Ensure you have an .env file in the root directory of your project and add your MongoDB database URI and your JWT secret.
 
 #### Installation
 To install backend dependencies, run 
