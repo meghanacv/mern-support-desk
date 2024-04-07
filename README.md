@@ -13,23 +13,21 @@ Support Ticket App is a full-stack web application developed with the MERN (Mong
 ### Environment Variables
 Ensure you have an .env file in the root directory of your project with the following variables:
 
-NODE_ENV=development
+`NODE_ENV=development
 PORT=5000
-MONGO_URI=mongodb+srv://youruri
-JWT_SECRET=<your_secret_key>
-Replace youruri with your MongoDB connection URI and <your_secret_key> with your desired secret key for JWT authentication.
+MONGO_URI=mongodb+srv://<your_uri>
+JWT_SECRET=<your_secret_key>`
+Replace <your_uri> with your MongoDB connection URI and <your_secret_key> with your desired secret key for JWT authentication.
 
 #### Installation
 To install backend dependencies, run 
 `npm install`
 
 To install client dependencies, navigate to the frontend directory and run:
-
-`cd frontend
+`cd frontend 
 npm install`
 
 #### Running the Application
-To run both the backend and frontend concurrently, use:
+To run both the backend and frontend concurrently, use: `npm run dev`
 
-`npm run dev`
 This command will start the server at **http://localhost:5000** and the client at **http://localhost:3000**.
